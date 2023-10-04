@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Encontros de RPG</title>
+    <!-- Adicione links para os arquivos CSS do Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css.css">
+
+
+</head>
+<header>
+    <div class="logo-container">
+        <a href="https://discord.gg/Sq57eGcyZR" target="_blank"><img src="logo_vectora.png" alt="Logo" class="logo"></a>
+        <a href="https://discord.gg/Sq57eGcyZR" target="_blank"><img src="qr_code.png" alt="QR Code"
+                class="qr-code"></a>
+    </div>
+</header>
+
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Encontros Aleatórios<br> em Arton</h1>
+
+        <!-- Formulário -->
+        <form>
+            <!-- Campo "Rolagens anteriores sem encontro" -->
+            <div class="form-group rolagens-anteriores">
+                <label for="rolagensAnterioresInput">Rolagens anteriores sem encontro:</label>
+                <input type="number" class="form-control" id="rolagensAnterioresInput" name="rolagensAnteriores"
+                    placeholder="Quantidade">
+            </div>
+
+            <!-- Botão para rolar Encontro -->
+            <button class="btn btn-primary" id="rollEncounter">Rolar Encontro</button>
+            <!-- Botão para rolar a tabela (adicionar o script aqui) -->
+            <button class="btn btn-primary" id="rollTable">Fechar Tabela</button><br>
+
+            <div id="ocultaveis" style="display: none;">
+                <!-- Seletor de Patamar -->
+                <div class="form-group patamar">
+                    <label for="patamar">Patamar:</label>
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-secondary active">
+                            <input type="radio" name="playerType" id="iniciante" autocomplete="off" checked>
+                            Iniciante
+                            <div class="hover-content">
+                                <img src="img/iniciante.png" alt="Iniciante" class="radio-image">
+                                <div class="message">Patamar: Iniciante</div>
+                            </div>
+                        </label>
+                        <label class="btn btn-secondary">
+                            <input type="radio" name="playerType" id="veterano" autocomplete="off">
+                            Veterano
+                            <div class="hover-content">
+                                <img src="img/veterano.png" alt="Veterano" class="radio-image">
+                                <div class="message">Patamar: Veterano<br>+30 na rolagem</div>
+                            </div>
+                        </label>
+                        <label class="btn btn-secondary">
+                            <input type="radio" name="playerType" id="campeao" autocomplete="off">
+                            Campeão
+                            <div class="hover-content">
+                                <img src="img/campeao.png" alt="Campeão" class="radio-image">
+                                <div class="message">Patamar: Campeão<br>+70 na rolagem</div>
+                            </div>
+                        </label>
+                        <label class="btn btn-secondary">
+                            <input type="radio" name="playerType" id="lenda" autocomplete="off">
+                            Lenda
+                            <div class="hover-content">
+                                <img src="img/lenda.png" alt="Lenda" class="radio-image">
+                                <div class="message">Patamar: Lenda<br>+110 na rolagem</div>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Seletor de Tipo de Terreno -->
+                <div class="form-group tipoTerreno">
+                    <label for="tipoTerreno" id="tipoTerrenoLabel">Tipo de Terreno:</label>
+                    <select class="form-control terreno" id="tipoTerreno" name="tipoTerreno">
+                        <option value="Aquático">Aquático</option>
+                        <option value="Ártico">Ártico</option>
+                        <option value="Área de Tormenta">Área de Tormenta</option>
+                        <option value="Colina">Colina</option>
+                        <option value="Deserto">Deserto</option>
+                        <option value="Floresta">Floresta</option>
+                        <option value="Montanha">Montanha</option>
+                        <option value="Planície">Planície</option>
+                        <option value="Pântano">Pântano</option>
+                        <option value="Subterrâneo">Subterrâneo</option>
+                        <option value="Urbano">Urbano</option>
+                        <option value="Aslothia">Aslothia</option>
+                        <option value="Estradas">Estradas do Reinado</option>
+                        <option value="Galrasia">Galrasia</option>
+                        <option value="Império">Império de Tauron</option>Repúblicas Livres
+                        <option value="Repúblicas">Repúblicas Livres</option>
+                        <option value="Sanguinárias">Sanguinárias</option>
+                        <option value="Supremacia">Supremacia Purista</option>
+                        <option value="Lamnor">Tyrondir/Lamnor</option>
+                    </select>
+                </div>
+
+                <button class="btn btn-primary" id="rollAutomatically">Rolar Automaticamente</button><br>
+
+                <!-- Tabela de Encontros -->
+                <table class="table table-bordered table-striped" id="tabelaEncontro">
+                    <thead>
+                        <tr>
+                            <th>Rolagem</th>
+                            <th>Encontro</th>
+                            <th>Local</th>
+                        </tr>
+                    </thead>
+                </table>
+
+
+                
+            </div>
+    </div>
+    </form>
+    </div>
+
+    <!-- Adicione o link para o arquivo JavaScript para rolar a tabela aqui -->
+    <script src="js.js"></script>
+
+    <!-- Adicione links para os arquivos JavaScript do Bootstrap (opcional) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+<footer>
+    Desenvolvido por <a href="nicholemos.github.io" target="_blank">Janus</a> para a <a
+        href="https://discord.gg/Sq57eGcyZR" target="_blank">Armada de Vectora</a> em 29/09/2023<br>
+
+</footer>
+
+</html>

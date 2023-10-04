@@ -1,0 +1,170 @@
+/* Estilo para as mensagens e imagens no hover */
+.hover-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  pointer-events: none;
+  /* Evita que os elementos no hover sejam interativos */
+  z-index: 1;
+  /* Garante que os elementos no hover estejam acima dos outros */
+}
+
+/* Estilo para mostrar a mensagem e a imagem no hover */
+.btn-group .btn:hover .hover-content {
+  display: block;
+}
+
+
+@font-face {
+  font-family: 'Tormenta';
+  src: url('Tormenta.ttf');
+}
+
+header {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffcc0044;
+  /* Cor de fundo */
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 150px;
+  margin-right: 10px;
+}
+
+.qr-code {
+  width: 50px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Tormenta', sans-serif;
+  color: red;
+  text-size: 150;
+  background-color: rgba(255, 254, 254, 0.25);
+  margin-top: 2%;
+}
+
+body {
+  background-image: url("capa.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(37, 35, 33, 0.5);
+
+}
+
+
+
+
+/* Estilos para o footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 10px;
+  font-size: 12px;
+  color: #888;
+}
+
+/* Estilo para a tabela */
+table {
+  background-color: white;
+  /* Define o fundo como branco */
+  border-collapse: collapse;
+  /* Combina as bordas das células */
+  width: 100%;
+  /* Largura total da tabela */
+}
+
+/* Estilo para o texto nas células */
+table td {
+  color: blue;
+  /* Define a cor do texto*/
+  padding: 8px;
+  /* Espaçamento interno das células */
+  border: 1px solid #ddd;
+  /* Borda das células (opcional) */
+  text-align: left;
+  /* Alinhamento do texto (opcional) */
+  font-weight: bold;
+}
+
+/* Estilo para a div com as rolagens anteriores */
+.rolagens-anteriores {
+  margin-bottom: 20px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  /* Adicione um espaçamento inferior para separá-lo de outros elementos */
+}
+
+/* Estilo para o rótulo (label) */
+.rolagens-anteriores label {
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+  /* Cor do texto */
+}
+
+/* Estilo para o campo de entrada (input) */
+.rolagens-anteriores input {
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #000000;
+  font-weight: bold;
+}
+
+/* Estilo para realçar o campo quando em foco (opcional) */
+.rolagens-anteriores input:focus {
+  border-color: #007bff;
+  /* Cor de realce quando em foco */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  /* Sombra de realce quando em foco */
+}
+
+/* Estilo para a div com os botões de patamar */
+.patamar {
+  margin-bottom: 20px;
+  /* Adicione um espaçamento inferior para separá-lo de outros elementos */
+  font-weight: bold;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+
+.tipoTerreno {
+  margin-bottom: 20px;
+  /* Adicione um espaçamento inferior para separá-lo de outros elementos */
+  font-weight: bold;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.terreno {
+  width: 100%;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #000000;
+  font-weight: bold;
+}
+
