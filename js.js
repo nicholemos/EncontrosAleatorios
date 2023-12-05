@@ -645,13 +645,12 @@ function rolarEncontros() {
             { porcentagem: 185, descricao: "4 colossos supremos*, 2 golens de ferro superiores e 1 soldado superior", pag: "Jogo do Ano, pag 302 e 287; Ameaças, pag. 283 " },
             { porcentagem: 200, descricao: "1d6+2 soldados superiores", pag: "Ameaças, pag. 283" },
             { porcentagem: 999, descricao: "Comando do Templo da Pureza Divina (1 kishinauros, 1d6 colossos supremos*, 2d6 bispos de guerra)", pag: "Ameaças, pag. 141 e 142; Jogo do Ano, pag 302" }
-            // Adicione outros encontros e porcentagens aqui
         ],
 
         "Lamnor": [
             { porcentagem: 2, descricao: "1d4+1 goblins salteadores", pag: "Jogo do Ano, pag 302" },
             { porcentagem: 6, descricao: "2d4 ratos gigantes", pag: "Jogo do Ano, pag 288" },
-            { porcentagem: 10, descricao: "1 bandido ligeiro e 2 bandidos comuns", pag: ", Ameaças, pag. 42" },
+            { porcentagem: 10, descricao: "1 bandido ligeiro e 2 bandidos comuns", pag: "Ameaças, pag. 42" },
             { porcentagem: 20, descricao: "1 zumbi peçonha", pag: "Ameaças, pag 335" },
             { porcentagem: 30, descricao: "1 turba de zumbis*", pag: "Jogo do Ano, pag 299" },
             { porcentagem: 35, descricao: "1 leão disputando uma carcaça com 1 pantera", pag: "Ameaças, pag 218" },
