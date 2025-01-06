@@ -84,13 +84,13 @@ function rolarEncontros() {
             { porcentagem: 40, descricao: "1 elfo-do-mar pescador e 1 escudeiro", pag: "Ameaças, pag 316 e 191" },
             { porcentagem: 45, descricao: "1 canceronte", pag: "Ameaças, pag 315" },
             { porcentagem: 55, descricao: "1 dragão filhote dos rios", pag: "Ameaças, pag 64" },
-            { porcentagem: 65, descricao: "2 lacedons e 1 ogro", pag: "Ameaças, pag 229 e 41" },
+            { porcentagem: 65, descricao: "2 lacedons", pag: "Ameaças, pag 229" },
             { porcentagem: 70, descricao: "1d3 platans", pag: "Ameaças, pag 322" },
             { porcentagem: 75, descricao: "Tempestade em alto mar*", pag: "Jogo do Ano, pag 321" },
             { porcentagem: 80, descricao: "1 enxame de águas-vivas", pag: "Ameaças, pag 319" },
             { porcentagem: 90, descricao: "1 capitão pirata", pag: "Ameaças, pag 259" },
             { porcentagem: 98, descricao: "1 homem-piranha capitão e 1d6+1 homens-piranhas", pag: "Ameaças, pag 256 e 257" },
-            { porcentagem: 100, descricao: "1 moreau da raposa bucaneiro enfrentando 1d4 afogados", pag: "Ameaças, pag 301 e 253" },
+            { porcentagem: 100, descricao: "1 moreau da raposa bucaneira enfrentando 1d4 afogados", pag: "Ameaças, pag 301 e 253" },
             { porcentagem: 105, descricao: "2 águas-vivas gigantes", pag: "Ameaças, pag 319" },
             { porcentagem: 110, descricao: "1d4+1 corganns", pag: "Ameaças, pag 89" },
             { porcentagem: 115, descricao: "1 nereida", pag: "Ameaças, pag 320" },
@@ -100,10 +100,10 @@ function rolarEncontros() {
             { porcentagem: 140, descricao: "1 canceronte de guerra", pag: "Ameaças, pag 315" },
             { porcentagem: 145, descricao: "2 dragões veneráveis* (frio)", pag: "Jogo do Ano, pag 311" },
             { porcentagem: 155, descricao: "1 lobo do mar, 2 capitães piratas e 2d8 piratas", pag: "Ameaças, pag 262 e 258" },
-            { porcentagem: 170, descricao: "1 enguia rainha e 2 ezzayn", pag: "Ameaças, pag 317 e 27" },
-            { porcentagem: 185, descricao: "1 kraken e 1 necrodraco lich", pag: "Ameaças, pag 325 e 239" },
-            { porcentagem: 200, descricao: "1 kaiju com deslocamento de natação", pag: "Ameaças, pag 313 e 357" },
-            { porcentagem: 999, descricao: "1 dragão-rei* (frio) e 1d4 dragões veneráveis* (frio)", pag: "Jogo do Ano, pag 312 e 311" }
+            { porcentagem: 170, descricao: "1 enguia rainha", pag: "Ameaças, pag 317" },
+            { porcentagem: 185, descricao: "1 kraken", pag: "Ameaças, pag 325" },
+            { porcentagem: 200, descricao: "1 kaiju com deslocamento de natação", pag: "Ameaças, pag 313" },
+            { porcentagem: 999, descricao: "1 Dragão-Real* (frio) e 1d4 dragões veneráveis* (frio)", pag: "Jogo do Ano, pag 312 e 311" }
         ],
 
         "Ártico": [
@@ -195,7 +195,7 @@ function rolarEncontros() {
             { porcentagem: 155, descricao: "2 golens de ferro superior com mal funcionamento (troque os elementos de sua Imunidade a Magia)", pag: "não possui" },
             { porcentagem: 160, descricao: "2 nuvens de estirges", pag: "Ameaças, pag 247" },
             { porcentagem: 170, descricao: "4 golens de pedra protegendo um monólito, que se tocado invoca 1 gnoll vuul’rak que estava preso", pag: "Ameaças, pag 78" },
-            { porcentagem: 185, descricao: "1 dragão-rei* (eletricidade)", pag: "não possui" },
+            { porcentagem: 185, descricao: "1 Dragão-Real* (eletricidade)", pag: "não possui" },
             { porcentagem: 200, descricao: "A Catastrofe Rara (4 nuvens de estirges)", pag: "não possui" },
             { porcentagem: 999, descricao: "A Horda Risonha (2 gnoll vuul’rak, 1 totem de sarana, 1 totem do rei tirano, 1d6 xamãs de marah, 1d6 xamãs de megalokk, 2d6 gnolls lideres de alcateia, e 2 totens risonhos)", pag: "não possui" }
             // Adicione outros encontros e porcentagens aqui
@@ -227,7 +227,7 @@ function rolarEncontros() {
             { porcentagem: 155, descricao: "2 senhores das múmias", pag: "não possui" },
             { porcentagem: 160, descricao: "1 golem de matéria vermelha", pag: "não possui" },
             { porcentagem: 170, descricao: "1 górgona matriarca e 4 elemental do veneno grande", pag: "não possui" },
-            { porcentagem: 185, descricao: "1 dragão-rei*", pag: "não possui" },
+            { porcentagem: 185, descricao: "1 Dragão-Real*", pag: "não possui" },
             { porcentagem: 200, descricao: "Grande Enxame (1 avatar de Aharadak, 4 ezzayns e 2d10 líder fanático lefou)", pag: "não possui" },
             { porcentagem: 999, descricao: "Novos Zarkhassitas (1 nastarrath, 1d6+2 sszzaazita celebrante, 1d4 nagah mística, 2d6 nagah defensor)", pag: "não possui" }
             // Adicione outros encontros e porcentagens aqui
@@ -291,7 +291,7 @@ function rolarEncontros() {
             { porcentagem: 155, descricao: "Santuário antigo guardado por 2 tanaloom e 1 dragão da equidade venerável", pag: "Ameaças, pag. 99 e 71" },
             { porcentagem: 160, descricao: "2 razza’kham lutando entre si", pag: "Ameaças, pag. 309" },
             { porcentagem: 170, descricao: "2 hobgoblins gladiadores e 1 horda goblin", pag: "Ameaças, pag. 85 e 81" },
-            { porcentagem: 185, descricao: "2 vermes do gelo adultos e 1 dragão-rei* (eletricidade)", pag: "Ameaças, pag. 357; Jogo do Ano, pag. 312" },
+            { porcentagem: 185, descricao: "2 vermes do gelo adultos e 1 Dragão-Real* (eletricidade)", pag: "Ameaças, pag. 357; Jogo do Ano, pag. 312" },
             { porcentagem: 200, descricao: "Ateliê Rubro (2 golens de matéria vermelha, 1 senhor do gigante rubro forma final, 1d4+2 reishid lider de culto, 1d6 esmagadores coletivos e 1d3+1 simbiontes diversos)", pag: "Ameaças, pag. 131, 58, 56, 22 e 61" },
             { porcentagem: 999, descricao: "O Despertar dos Monstros (1d4 kaijus)", pag: "Ameaças, pag. 313" }
             // Adicione outros encontros e porcentagens aqui
@@ -356,7 +356,7 @@ function rolarEncontros() {
             { porcentagem: 170, descricao: "2 cemitérios vivos", pag: "Ameaças, pag. 286" },
             { porcentagem: 185, descricao: "1 necrodraco lich", pag: "Ameaças, pag. 239" },
             { porcentagem: 200, descricao: "Laboratório... abandonado? (1 lich de Aslothia, 1 cemitério vivo, 4 vampiros*)", pag: "Ameaças, pag. 292" },
-            { porcentagem: 999, descricao: "1 dragão-rei (ácido) e 1d6+2 dracomante superior", pag: "Jogo do Ano, pag. 312; Ameaças, pág. 149" }
+            { porcentagem: 999, descricao: "1 Dragão-Real (ácido) e 1d6+2 dracomante superior", pag: "Jogo do Ano, pag. 312; Ameaças, pág. 149" }
             // Adicione outros encontros e porcentagens aqui
         ],
 
@@ -482,7 +482,7 @@ function rolarEncontros() {
             { porcentagem: 160, descricao: "1 nagah encantadora escoltada por 4 nagahs retalhadores", pag: "Ameaças, pag. 331 e 333" },
             { porcentagem: 170, descricao: "4 golens de ferro superiores enviados para eliminar os aventureiros", pag: "Ameaças, pag. 130" },
             { porcentagem: 185, descricao: "2 sszzaazitas celebrantes (um disfarçado de Tenebra, o outro de Azgher) acusando um ao outro de ser um impostor", pag: "Ameaças, pag. 337" },
-            { porcentagem: 200, descricao: "1 dragão-rei* (essência)", pag: "Jogo do Ano, pag. 312" },
+            { porcentagem: 200, descricao: "1 Dragão-Real* (essência)", pag: "Jogo do Ano, pag. 312" },
             { porcentagem: 999, descricao: "Tarso pedindo um sorvete", pag: "Ameaças, pag. 241" }
             // Adicione outros encontros e porcentagens aqui
         ],
@@ -512,7 +512,7 @@ function rolarEncontros() {
             { porcentagem: 150, descricao: "1d3+1 grande battham de passagem", pag: "Ameaças, pag. 248" },
             { porcentagem: 155, descricao: "1 razza’kham*", pag: "Ameaças, pag. 309" },
             { porcentagem: 160, descricao: "1 voracis rainha e 2d6 voracis caçadoras que vão invocar um totem da divina serpente em 1d4+1 rodadas", pag: "Ameaças, pag. 270, 269 e 272" },
-            { porcentagem: 170, descricao: "1 dragão-rei (veneno)", pag: "Jogo do Ano, pag. 312" },
+            { porcentagem: 170, descricao: "1 Dragão-Real (veneno)", pag: "Jogo do Ano, pag. 312" },
             { porcentagem: 185, descricao: "1 kaiju (ferrão peçonhento e sopro corrosivo) adormecido vai acordar em 1d3 dias", pag: "Ameaças, pag. 313" },
             { porcentagem: 200, descricao: "Conflagração elemental (1 hallustir, 1 namasqall, 1 serpentaar e 1 tanaloom)", pag: "Ameaças, pag. 94, 91, 96 e 99" },
             { porcentagem: 999, descricao: "1 rubi da virtude* protegido por uma armadilha Sussurro de Sszzaas(aumente a CD em 10)", pag: "Ameaças, pag. 359" },
@@ -580,7 +580,7 @@ function rolarEncontros() {
             { porcentagem: 170, descricao: "1 lich de Aslothia e 4 alzeras", pag: "Ameaças, pag. 292 e 284" },
             { porcentagem: 185, descricao: "1 riqueza maior no fundo de um rio de água corrente protegida por 1d4+1 elementais corrompidos", pag: "Jogo do Ano, pag 330; Ameaças, pag. 101" },
             { porcentagem: 200, descricao: "1 kraken e 2d4+2 corgans atacando uma cidade portuária", pag: "Ameaças, pag. 325 e 89" },
-            { porcentagem: 999, descricao: "Covil dos escamas verdes (1 dragão-rei (ácido) e 2d4 dragões veneráveis (ácido))", pag: "Jogo do Ano, pag 312" }
+            { porcentagem: 999, descricao: "Covil dos escamas verdes (1 Dragão-Real (ácido) e 2d4 dragões veneráveis (ácido))", pag: "Jogo do Ano, pag 312" }
             // Adicione outros encontros e porcentagens aqui
         ],
 
@@ -610,7 +610,7 @@ function rolarEncontros() {
             { porcentagem: 155, descricao: "1 vagalhão kobold", pag: "Ameaças, pag. 187" },
             { porcentagem: 160, descricao: "2 razza’kham caçando 4 cavaleiros do leopardo sangrento*", pag: "Ameaças, pag. 309 ; Jogo do Ano, pag 295" },
             { porcentagem: 170, descricao: "2 ezzayn especiais", pag: "Ameaças, pag. 27" },
-            { porcentagem: 185, descricao: "1 dragão-rei (fogo)*", pag: "Jogo do Ano, pag 311" },
+            { porcentagem: 185, descricao: "1 Dragão-Real (fogo)*", pag: "Jogo do Ano, pag 311" },
             { porcentagem: 200, descricao: "2 kaiju brigando por território", pag: "Ameaças, pag. 313" },
             { porcentagem: 999, descricao: "Kishinauros em seu local de descanso", pag: "Ameaças, pag. 142" }
             // Adicione outros encontros e porcentagens aqui
