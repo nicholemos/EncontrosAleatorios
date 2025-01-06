@@ -76,7 +76,7 @@ function rolarEncontros() {
     // Defina as porcentagens e os resultados para cada tipo de terreno
     var terrenos = {
         "Aquático": [
-            { porcentagem: 2, descricao: "1 hynne dormente se afogando", pag: "não possui" },
+            { porcentagem: 2, descricao: "1 hynne dormente se afogando", pag: "não possui", imagem: "https://www.theonering.com/wp-content/uploads/2020/11/frodo-sleeping.jpg" },
             { porcentagem: 6, descricao: "1d3 bandidos comuns", pag: "Ameaças, pag 42" },
             { porcentagem: 10, descricao: "1d3 piratas", pag: "Ameaças, pag 258" },
             { porcentagem: 20, descricao: "1 baú de tesouro (ND 2; Percepção CD 15 para achar)", pag: "Jogo do Ano, pag 328" },
@@ -711,11 +711,25 @@ function exibirResultado(rolagem, resultado) {
     var rolagemCell = newRow.insertCell(0);
     var descricaoCell = newRow.insertCell(1);
     var localCell = newRow.insertCell(2);
+    var imagemCell = newRow.insertCell(3);  // Nova célula para a imagem
 
     rolagemCell.innerHTML = rolagem; // Exibe a rolagem
     descricaoCell.innerHTML = resultado.descricao; // Exibe o encontro
-    localCell.innerHTML = resultado.pag;
+    localCell.innerHTML = resultado.pag; // Exibe o local
+
+    // Defina a imagem correspondente ao encontro ou a imagem padrão
+    var imagemUrl = resultado.imagem || "https://blog.peexbrasil.com.br/wp-content/uploads/2019/01/Fuja-dos-4-erros-mais-comuns-ao-aplicar-avalia%C3%A7o-de-desempenho.jpg";  // URL da imagem padrão
+
+    // Crie o elemento de imagem e defina a URL
+    var imagemElement = document.createElement("img");
+    imagemElement.src = imagemUrl;
+    imagemElement.alt = resultado.descricao;  // Texto alternativo para acessibilidade
+    imagemElement.style.width = "100px"; // Defina o tamanho da imagem, se necessário
+
+    // Adicione a imagem na célula
+    imagemCell.appendChild(imagemElement);
 }
+
 
 // Adicione um ouvinte de evento ao botão "Rolar Automaticamente" para chamar a função
 document.getElementById("rollAutomatically").addEventListener("click", function (event) {
